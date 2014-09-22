@@ -21,6 +21,7 @@ crl		= $dir/crl.pem 		# The current CRL
 private_key	= $dir/private/ca.key	# The private key
 RANDFILE	= $dir/.rand		# private random number file
 
+unique_subject	= no
 x509_extensions	= basic_exts		# The extentions to add to the cert
 
 # This allows a V2 CRL. Ancient browsers don't like it, but anything Easy-RSA
